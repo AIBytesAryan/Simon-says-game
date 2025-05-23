@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  background: linear-gradient(to bottom, #0f172a, #0b3d2f);
+  /* background: radial-gradient(circle, #ffcc00, #ff6699, #66ccff); */
+  /* background-image: url('spiderman_img.png');
+  background-size: contain; */
+}
+.btn{
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+  border: 5px solid black;
+  margin : 2.5rem;
+}
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
+.red{
+  background-color: #ff4646;
+}
+.yellow{
+  background-color: #fffa65;
+}
+.green{
+  background-color: #6eff6e;
+}
+.blue{
+  background-color: rgb(97, 97, 253);
+}
+
+h1,h2 {
+  font-family: Arial, sans-serif;
+  color: white;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1), 0 0 10px rgba(0, 0, 0, 1), 0 0 10px rgba(0, 0, 0, 1);
+}
+.gameflash{
+  background-color: white;
+}
+.userflash{
+  background-color: green;
+}
